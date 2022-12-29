@@ -1,5 +1,6 @@
 %define upstream_name		MusicBrainz-DiscID
-%define upstream_version 0.04
+%define upstream_version 0.06
+%define debug_package %{nil}
 
 %{?perl_default_filter}
 
@@ -8,7 +9,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Perl interface for the MusicBrainz libdiscid library
-License:	GPL+ or Artistic
+License:	MIT
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/MusicBrainz/%{upstream_name}-%{upstream_version}.tar.gz
