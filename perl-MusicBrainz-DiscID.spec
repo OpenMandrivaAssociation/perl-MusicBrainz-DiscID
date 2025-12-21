@@ -13,6 +13,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/dist/%{upstream_name}
 Source0:	https://cpan.metacpan.org/modules/by-module/MusicBrainz/%{upstream_name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl(ExtUtils::CBuilder)
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Test)
