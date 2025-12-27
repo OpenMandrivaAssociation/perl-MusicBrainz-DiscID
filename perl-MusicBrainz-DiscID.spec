@@ -5,7 +5,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.06
-Release:	4
+Release:	5
 
 Summary:	Perl interface for the MusicBrainz libdiscid library
 License:	MIT
