@@ -1,0 +1,54 @@
+{
+   "abstract" : "Perl interface for the MusicBrainz libdiscid library",
+   "author" : [
+      "Nicholas J. Humfrey"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "mit"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "MusicBrainz-DiscID",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test" : "1.00",
+            "Test::More" : "0",
+            "Test::Pod" : "1.00"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/njh/perl-musicbrainz-discid/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/njh/perl-musicbrainz-discid.git",
+         "web" : "https://github.com/njh/perl-musicbrainz-discid"
+      }
+   },
+   "version" : "0.06",
+   "x_serialization_backend" : "JSON::PP version 2.97001"
+}

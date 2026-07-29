@@ -1,0 +1,20 @@
+--- MusicBrainz-DiscID-0.06/DiscID.xs
++++ MusicBrainz-DiscID-0.06/DiscID.xs
+@@ -113,14 +113,15 @@
+ ## Provides the TOC of a known CD.
+ ##
+ int
+-discid_put( disc, first_track, sectors, offsets ... )
++discid_put( disc, first_track, sectors, ... )
+   DiscId *disc
+   int first_track
+   int sectors
+-  int n_items = items;
+   PREINIT:
+ 	  int i, last_track, offsets[100];
++	  int n_items;
+   CODE:
++    n_items = items;
+     memset(offsets, 0, sizeof(offsets));
+     if (items > 102 ) n_items = 102;  // rely on discid_put to return error
+     for (i=3; i<n_items; i++) {

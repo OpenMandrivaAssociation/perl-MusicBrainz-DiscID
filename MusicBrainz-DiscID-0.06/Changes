@@ -1,0 +1,21 @@
+Revision history for libdiscid perl bindings
+
+0.06  Mon  7 Oct 2019 23:32:36 BST
+  - Changed license to MIT
+
+0.04  Tue 13 Jun 2017 22:27:29 BST
+  - Use ExtUtils::MakeMaker instead of Module::Build
+  - Fixed encoding in POD (RT#85212)
+  - Fixed stack corruption in discid_put (RT#98179)
+  - Updated tests for libdiscid 0.6.x (RT#89285)
+  - Fixed typo in POD (RT#85212)
+
+0.03  Wed 23 Sep 2009 22:07:22 BST
+  - Corrections to synopsis from Adam Sjøgren
+
+0.02  Wed 27 May 2009 23:19:11 BST
+  - Proper tests
+  - Added support for put method
+
+0.01  Wed May 27 16:21:52 BST 2009
+	- First release
